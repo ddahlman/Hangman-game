@@ -69,7 +69,6 @@ $(document).ready(function () {
                 setTimeout(Modal, 500);
                 $('.winOrLoose1').html('Du vann!!!');
                 $('.modal-h2').html("You're a Wieeener!");
-
             }
             /*filter keysPressedArray so the new soWrong array is without hanged letters*/
             soWrong = keysPressedArray.filter((value) =>
